@@ -1,0 +1,35 @@
+{
+  "name": "monocle-request",
+  "description": "Monocle.js wrapper for Node's request library",
+  "tags": [
+    "monocle",
+    "sync",
+    "request"
+  ],
+  "version": "0.0.1",
+  "author": "jlipps@gmail.com",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jlipps/monocle-request.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jlipps/monocle-request/issues"
+  },
+  "engines": [
+    "node"
+  ],
+  "main": "./lib/request.js",
+  "directories": {
+    "lib": "./lib"
+  },
+  "dependencies": {
+    "monocle.js": "~0.1.0",
+    "underscore": "~1.5.1"
+  },
+  "scripts": {
+  },
+  "devDependencies": {
+    "mocha": "~1.8.1",
+    "should": "~1.2.1"
+  }
+}
