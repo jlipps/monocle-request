@@ -16,4 +16,12 @@ describe('monocle-request', function() {
     });
   });
 
+  it('should get a url with get', function(done) {
+    run(function*() {
+      var res = yield request.get(testUrl);
+      res[1].should.include("Google");
+      done();
+    });
+  });
+
 });

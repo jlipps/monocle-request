@@ -24,7 +24,8 @@
   },
   "dependencies": {
     "monocle.js": "~0.1.0",
-    "underscore": "~1.5.1"
+    "underscore": "~1.5.1",
+    "request": "~2.27.0"
   },
   "scripts": {
   },
