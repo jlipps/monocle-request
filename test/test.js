@@ -3,7 +3,7 @@
 
 var request = require("../lib/request")
   , should = require("should")
-  , run = require("monocle.js").run;
+  , run = require("monocle-js").run;
 
 describe('monocle-request', function() {
   var testUrl = "http://google.com";
